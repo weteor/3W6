@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri /home/matthias/lib/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name WetCorn)(type KiCad)(uri /home/matthias/lib/WetCorn/WetCorn.pretty)(options "")(descr ""))
+)
