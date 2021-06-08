@@ -1,4 +1,4 @@
-19233459902824005
+19244777427939005
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83027,6 +83027,13 @@ varistor SIOV
 2
 2
 WetCorn
+3x6_PactSwitch_Hole
+
+
+0
+0
+0
+WetCorn
 Alps_SKHL_Tact_Switch_Horizontal_low
 http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHL/SKHLLAA010.html
 ALPS SKHLL low tactile switch
@@ -83037,6 +83044,13 @@ WetCorn
 C_0402_HandSolder
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor handsolder
+0
+2
+2
+WetCorn
+D_SOD-123
+SOD-123
+SOD-123
 0
 2
 2
@@ -83062,12 +83076,47 @@ Kailh_Choc_1u
 2
 2
 WetCorn
+Logo
+
+
+0
+0
+0
+WetCorn
+Logo_L
+
+
+0
+0
+0
+WetCorn
+Logo_L_angle
+
+
+0
+0
+0
+WetCorn
+Logo_v1
+
+
+0
+0
+0
+WetCorn
 Micro_Push_Button_3x6x2.5mm
 
 
 0
 2
 2
+WetCorn
+Plate_Hole
+
+
+0
+0
+0
 WetCorn
 R_0402_HandSolder
 Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
