@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/matthias/Data/proj/3W6/pcb/3W6.sch</source>
+    <date>Mo 29 Mär 2021 01:46:46 CEST</date>
+    <tool>Eeschema 5.1.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>WetCorn</title>
+        <company/>
+        <rev>v1</rev>
+        <date>2021-03-18</date>
+        <source>3W6.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60540A9B</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60541030</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60541F01</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605421B6</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60542827</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605447E4</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60544CAF</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60545054</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60545480</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60545989</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054660D</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60546A57</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60546EAD</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60547334</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60547842</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60547E2F</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605485FD</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1.5u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054896F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605863C8</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6058FA23</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60590715</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6059B0EC</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054D13F</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054D60D</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054DA2D</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054DF0C</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054E423</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60565A0C</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60565FFB</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60566389</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605674CE</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60567963</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6057BDDC</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6057C146</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6057C588</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A7DFC</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A817A</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8184</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A818E</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8198</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81A2</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81AC</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81B6</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81C0</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81CA</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81D4</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81DE</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81E8</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81F2</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A81FC</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8206</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8210</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Kailh_Choc_1.5u</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A821A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8224</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A822E</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8238</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8242</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A825A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8274</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A827E</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8288</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8292</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A829C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A82C4</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A82CE</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A82D8</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A82E2</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A82EC</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8313</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A831D</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605A8327</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C Main</value>
+      <footprint>WetCorn:USB-C-12-Pin-MidMount</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605D5301</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_C  I2C_L</value>
+      <footprint>WetCorn:USB-C-12-Pin-MidMount</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605EB52F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C  I2C_R</value>
+      <footprint>WetCorn:USB-C-12-Pin-MidMount</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605FA8A4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AC204</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B1D6A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C9B85</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ATmega32U4-MU</value>
+      <footprint>Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-MU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BC96EF</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHZ</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BD82AE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22nF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C4CE7A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22nF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C4DD21</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D2FE9D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22R</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E214E7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22R</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E25D86</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F89159</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>WetCorn:Micro_Push_Button_3x6x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FB4EC6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610A7D05</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61105C7C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116CEA8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116D5B4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129BD11</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129D191</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129D4F7</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7uF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129EB69</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129CDBC</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TCA9555RTWR</value>
+      <footprint>Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tca9555.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="TCA9555RTWR" description="16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613CD702</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>WetCorn:C_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6194E0AE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>WetCorn:R_0402_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619500F8</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6058F63F</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605EA2DC</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605F03E1</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605F08BD</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605F0E81</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605F128A</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605F1820</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605F1D6D</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605F2244</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F6FF</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F863</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F86D</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F877</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F881</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F88B</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F895</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>D</value>
+      <footprint>WetCorn:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081F89F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="TCA9535RTWR">
+      <aliases>
+        <alias>TCA9555RTWR</alias>
+      </aliases>
+      <description>16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tca9535.pdf</docs>
+      <footprints>
+        <fp>WQFN*1EP*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA9535RTWR</field>
+        <field name="Footprint">Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P00" type="BiDi"/>
+        <pin num="2" name="P01" type="BiDi"/>
+        <pin num="3" name="P02" type="BiDi"/>
+        <pin num="4" name="P03" type="BiDi"/>
+        <pin num="5" name="P04" type="BiDi"/>
+        <pin num="6" name="P05" type="BiDi"/>
+        <pin num="7" name="P06" type="BiDi"/>
+        <pin num="8" name="P07" type="BiDi"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="P10" type="BiDi"/>
+        <pin num="11" name="P11" type="BiDi"/>
+        <pin num="12" name="P12" type="BiDi"/>
+        <pin num="13" name="P13" type="BiDi"/>
+        <pin num="14" name="P14" type="BiDi"/>
+        <pin num="15" name="P15" type="BiDi"/>
+        <pin num="16" name="P16" type="BiDi"/>
+        <pin num="17" name="P17" type="BiDi"/>
+        <pin num="18" name="A0" type="input"/>
+        <pin num="19" name="SCL" type="input"/>
+        <pin num="20" name="SDA" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="~INT" type="openCol"/>
+        <pin num="23" name="A1" type="input"/>
+        <pin num="24" name="A2" type="input"/>
+        <pin num="25" name="EPAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-MU">
+      <aliases>
+        <alias>ATmega16U4RC-MU</alias>
+        <alias>ATmega32U4-MU</alias>
+        <alias>ATmega32U4RC-MU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, QFN-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-MU</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>/usr/share/kicad/library/Interface_Expansion.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/usr/share/kicad/library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="U3" pin="14"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="R3" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J2" pin="B4"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="44"/>
+      <node ref="U3" pin="7"/>
+      <node ref="J2" pin="A9"/>
+      <node ref="J2" pin="A4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J2" pin="B9"/>
+      <node ref="U3" pin="34"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C5" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="U3" pin="23"/>
+      <node ref="U3" pin="35"/>
+      <node ref="U3" pin="15"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J2" pin="A1"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J2" pin="B12"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="A12"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="J2" pin="B1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="45"/>
+      <node ref="U3" pin="43"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R9-Pad2)">
+      <node ref="U3" pin="33"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="4" name="/I2C_SCL_L">
+      <node ref="J2" pin="B6"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="A6"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="5" name="/I2C_SDA_L">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="B7"/>
+      <node ref="U3" pin="19"/>
+      <node ref="J2" pin="A7"/>
+    </net>
+    <net code="6" name="VSS">
+      <node ref="J3" pin="A1"/>
+      <node ref="J3" pin="A12"/>
+      <node ref="J3" pin="B12"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U2" pin="23"/>
+      <node ref="U2" pin="25"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="18"/>
+      <node ref="J3" pin="B1"/>
+    </net>
+    <net code="7" name="/Col_R2">
+      <node ref="SW17" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW15" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="10" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="15" name="/Row_L0">
+      <node ref="D11" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="16" name="Net-(U3-Pad38)">
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="17" name="Net-(U3-Pad39)">
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="18" name="Net-(U3-Pad40)">
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="19" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad42)">
+      <node ref="U3" pin="42"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad37)">
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="22" name="Net-(C1-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="23" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="27" name="Net-(U3-Pad25)">
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad26)">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="30" name="Net-(C9-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="31" name="/D+">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="33" name="/D-">
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="35" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="36" name="Net-(U3-Pad31)">
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad32)">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="38" name="Net-(D46-Pad1)">
+      <node ref="D46" pin="1"/>
+    </net>
+    <net code="39" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="40" name="Net-(D48-Pad1)">
+      <node ref="D48" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D50-Pad1)">
+      <node ref="D50" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D52-Pad1)">
+      <node ref="D52" pin="1"/>
+    </net>
+    <net code="45" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2"/>
+    </net>
+    <net code="46" name="/Row_L2">
+      <node ref="D20" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="47" name="/Col_L0">
+      <node ref="SW7" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW6" pin="1"/>
+    </net>
+    <net code="48" name="/Row_R1">
+      <node ref="D9" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D47-Pad1)">
+      <node ref="D47" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="SW11" pin="2"/>
+    </net>
+    <net code="51" name="Net-(J1-PadA7)">
+      <node ref="J1" pin="B7"/>
+      <node ref="J1" pin="A7"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="52" name="Net-(J1-PadA6)">
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="B6"/>
+      <node ref="J1" pin="A6"/>
+    </net>
+    <net code="53" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D44-Pad1)">
+      <node ref="D44" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D39-Pad1)">
+      <node ref="D39" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D41-Pad1)">
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D43-Pad1)">
+      <node ref="D43" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D45-Pad1)">
+      <node ref="D45" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D38-Pad1)">
+      <node ref="D38" pin="1"/>
+    </net>
+    <net code="66" name="Net-(D42-Pad1)">
+      <node ref="D42" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D40-Pad1)">
+      <node ref="D40" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D49-Pad1)">
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="71" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D51-Pad1)">
+      <node ref="D51" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D53-Pad1)">
+      <node ref="D53" pin="1"/>
+    </net>
+    <net code="75" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2"/>
+    </net>
+    <net code="76" name="Net-(R5-Pad2)">
+      <node ref="U2" pin="22"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="77" name="Net-(J3-PadS1)">
+      <node ref="J3" pin="S1"/>
+    </net>
+    <net code="78" name="Net-(D37-Pad2)">
+      <node ref="SW37" pin="2"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D29-Pad2)">
+      <node ref="SW29" pin="2"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="80" name="/Row_L3">
+      <node ref="U3" pin="28"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D21" pin="1"/>
+    </net>
+    <net code="81" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="SW21" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="SW28" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+      <node ref="SW36" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D7-Pad2)">
+      <node ref="SW7" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D20-Pad2)">
+      <node ref="SW20" pin="2"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="88" name="/Col_R3">
+      <node ref="SW24" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="SW25" pin="1"/>
+      <node ref="SW23" pin="1"/>
+    </net>
+    <net code="89" name="/Col_R4">
+      <node ref="SW33" pin="1"/>
+      <node ref="SW31" pin="1"/>
+      <node ref="SW30" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="SW32" pin="1"/>
+    </net>
+    <net code="90" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="92" name="/Row_R0">
+      <node ref="D22" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="93" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="SW15" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D14-Pad2)">
+      <node ref="SW14" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="SW22" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D30-Pad2)">
+      <node ref="SW30" pin="2"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D23-Pad2)">
+      <node ref="SW23" pin="2"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D31-Pad2)">
+      <node ref="SW31" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="99" name="/Col_R0">
+      <node ref="SW3" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="100" name="/Col_R1">
+      <node ref="U2" pin="13"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW8" pin="1"/>
+    </net>
+    <net code="101" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="102" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="SW26" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="SW34" pin="2"/>
+    </net>
+    <net code="104" name="/Col_L2">
+      <node ref="U3" pin="36"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="SW20" pin="1"/>
+    </net>
+    <net code="105" name="Net-(D18-Pad2)">
+      <node ref="SW18" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="106" name="/Col_L1">
+      <node ref="SW11" pin="1"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="107" name="/Col_L3">
+      <node ref="SW29" pin="1"/>
+      <node ref="SW27" pin="1"/>
+      <node ref="SW28" pin="1"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="108" name="/Col_L4">
+      <node ref="U3" pin="29"/>
+      <node ref="SW37" pin="1"/>
+      <node ref="SW36" pin="1"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW35" pin="1"/>
+    </net>
+    <net code="109" name="Net-(D35-Pad2)">
+      <node ref="SW35" pin="2"/>
+      <node ref="D35" pin="2"/>
+    </net>
+    <net code="110" name="/Row_L1">
+      <node ref="D6" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="D35" pin="1"/>
+    </net>
+    <net code="111" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW12" pin="2"/>
+    </net>
+    <net code="112" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="SW19" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D27-Pad2)">
+      <node ref="SW27" pin="2"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="115" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5"/>
+    </net>
+    <net code="116" name="Net-(J2-PadB8)">
+      <node ref="J2" pin="B8"/>
+    </net>
+    <net code="117" name="Net-(J2-PadS1)">
+      <node ref="J2" pin="S1"/>
+    </net>
+    <net code="118" name="VDD">
+      <node ref="U2" pin="21"/>
+      <node ref="J3" pin="A9"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J3" pin="B4"/>
+      <node ref="J3" pin="A4"/>
+      <node ref="J3" pin="B9"/>
+    </net>
+    <net code="119" name="Net-(J3-PadA5)">
+      <node ref="J3" pin="A5"/>
+    </net>
+    <net code="120" name="/I2C_SDA_R">
+      <node ref="U2" pin="20"/>
+      <node ref="J3" pin="B7"/>
+      <node ref="J3" pin="A7"/>
+    </net>
+    <net code="121" name="Net-(J3-PadA8)">
+      <node ref="J3" pin="A8"/>
+    </net>
+    <net code="122" name="Net-(J3-PadB5)">
+      <node ref="J3" pin="B5"/>
+    </net>
+    <net code="123" name="/I2C_SCL_R">
+      <node ref="J3" pin="B6"/>
+      <node ref="J3" pin="A6"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="124" name="Net-(J3-PadB8)">
+      <node ref="J3" pin="B8"/>
+    </net>
+    <net code="125" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="126" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="127" name="Net-(F1-Pad1)">
+      <node ref="J1" pin="B9"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="A4"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="128" name="Net-(J1-PadA5)">
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="A5"/>
+    </net>
+    <net code="129" name="Net-(J1-PadS1)">
+      <node ref="J1" pin="S1"/>
+    </net>
+    <net code="130" name="Net-(J2-PadA5)">
+      <node ref="J2" pin="A5"/>
+    </net>
+    <net code="131" name="Net-(J2-PadA8)">
+      <node ref="J2" pin="A8"/>
+    </net>
+    <net code="132" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="133" name="Net-(D4-Pad2)">
+      <node ref="SW4" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="134" name="Net-(D10-Pad2)">
+      <node ref="SW10" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="135" name="/Row_R2">
+      <node ref="U2" pin="12"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="136" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="137" name="Net-(D16-Pad2)">
+      <node ref="SW16" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="138" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="139" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="SW33" pin="2"/>
+    </net>
+    <net code="140" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="SW25" pin="2"/>
+    </net>
+    <net code="141" name="/Row_R3">
+      <node ref="U2" pin="6"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D33" pin="1"/>
+    </net>
+    <net code="142" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="SW24" pin="2"/>
+    </net>
+    <net code="143" name="Net-(D32-Pad2)">
+      <node ref="SW32" pin="2"/>
+      <node ref="D32" pin="2"/>
+    </net>
+  </nets>
+</export>
