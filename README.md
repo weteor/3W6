@@ -1,4 +1,4 @@
-# 3w6 split ortholinear keyboard
+# 3w6 - split ortholinear keyboard
 
 The 3w6 is a low profile, split ortholinear keyboard with 36 keys.
 
