@@ -1,21 +1,21 @@
-# Base Layer 
+###  Base Layer 
 
-##Colemak (default)
+#### Colemak (default)
 ![image colemak](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/base_Cole.png)
 
-##Quertz
+#### Quertz
 ![image quertz](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/base_Cole.png)
 
-##Beakl, Colemak DH and Handsdown-Alt accessable through CFG Layer
+#### Beakl, Colemak DH and Handsdown-Alt accessable through CFG Layer
 
-# Symbol Layer
+### Symbol Layer
 ![image sym](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/sym.png)
  
-# Navigation Layer
+### Navigation Layer
 ![image nav](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/nav.png)
 
-# Number Layer
+### Number Layer
 ![image num](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/num.png)
 
-# Config Layer
+### Config Layer
 ![image cfg](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/cfg.png)
