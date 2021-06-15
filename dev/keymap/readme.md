@@ -4,7 +4,7 @@
 ![image colemak](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/base_Cole.png)
 
 #### Quertz
-![image quertz](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/base_Cole.png)
+![image quertz](https://raw.githubusercontent.com/weteor/3W6/main/dev/keymap/base_quertz.png)
 
 #### Beakl, Colemak DH and Handsdown-Alt accessable through CFG Layer
 
