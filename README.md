@@ -23,6 +23,8 @@ Amount | Component
 -------|----------
 3        | 12 pin USB-C Connectors (see [datasheet](https://github.com/weteor/3W6/blob/main/dev/docs/USBC_12pin_DataSheet.png), bought them from Aliexpress, choose the 0.8mm variant, not the 1.4mm)
 1        | 3x6x2.5mm SMD Micro Switch, can be found on Ebay or Aliexpress
+36       | Kailh Choc V1 switches
+36       | Keycaps, 17x18mm, Kailh original choc caps work, transparent ones might not. MKB fit perfectly
 1        | USB-C to USB-A cable (connection to PC)
 1        | USB-C to USB-C cable (connection between halves)
 optional | some self adhesive neopren material to put under the board or some rubber feet
