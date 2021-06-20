@@ -13,7 +13,7 @@ So no hotswap, no multiple switchtypes, no encoders, no LEDs.
 BUT with onboard controllers (so no extra ProMicros, Elite-C), production files including SMT assembly files, and sturdy through hole mounted USB-C connectors.
 
 ## try it
-You can print [this file](https://raw.githubusercontent.com/weteor/3W6/main/plate_outline.pdf) to test if the board will fit your hand and if you like the layout.
+You can print [this file](https://raw.githubusercontent.com/weteor/3W6/main/plate_outline.pdf) to test if you like the layout. Or mount it to some cardboard and test it with your favourite switches.
 
 ## build instructions
 
