@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name kbd)(type KiCad)(uri /home/matthias/lib/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
-  (lib (name WetCorn)(type KiCad)(uri /home/matthias/lib/WetCorn/WetCorn.pretty)(options "")(descr ""))
+  (lib (name Weteor)(type KiCad)(uri ${KIPRJMOD}/../part_library/weteor.pretty)(options "")(descr ""))
 )
