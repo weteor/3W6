@@ -1301,17 +1301,6 @@ NoConn ~ 1700 6100
 NoConn ~ 1700 6200
 NoConn ~ 1700 7000
 NoConn ~ 1700 7100
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U3
-U 1 1 60BC96EF
-P 5300 2600
-F 0 "U3" H 5750 4350 50  0000 C CNN
-F 1 "ATmega32U4-MU" V 5250 1700 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 5300 2600 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5300 2600 50  0001 C CNN
-	1    5300 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 1300 4150 1300
 Wire Wire Line
@@ -1540,28 +1529,7 @@ Wire Wire Line
 Connection ~ 5250 4450
 Wire Wire Line
 	5250 4450 5300 4450
-$Comp
-L Device:D_Small D1
-U 1 1 610A7D05
-P 4450 950
-F 0 "D1" V 4350 1100 50  0000 R CNN
-F 1 "D" V 4500 1050 50  0000 R CNN
-F 2 "Weteor:D_SOD-123" V 4450 950 50  0001 C CNN
-F 3 "~" V 4450 950 50  0001 C CNN
-	1    4450 950 
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4450 850  4600 850 
-Connection ~ 4600 850 
-Wire Wire Line
-	4250 1100 4450 1100
 Connection ~ 4600 1100
-Wire Wire Line
-	4450 1050 4450 1100
-Connection ~ 4450 1100
-Wire Wire Line
-	4450 1100 4600 1100
 $Comp
 L Device:R_Small R9
 U 1 1 61105C7C
@@ -2500,4 +2468,17 @@ F 3 "" H 8900 6650 50  0001 C CNN
 	1    8900 6300
 	1    0    0    -1  
 $EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 611A3CF9
+P 5300 2600
+F 0 "U1" H 5300 711 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 5300 620 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5300 2600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5300 2600 50  0001 C CNN
+	1    5300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1100 4600 1100
 $EndSCHEMATC
