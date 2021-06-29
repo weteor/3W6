@@ -735,17 +735,6 @@ F 3 "~" H 10600 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW17
-U 1 1 605A8206
-P 8900 6300
-F 0 "SW17" H 8900 6585 50  0000 C CNN
-F 1 "SW_Push" H 8900 6494 50  0000 C CNN
-F 2 "Weteor:Kailh_Choc_1u" H 8900 6500 50  0001 C CNN
-F 3 "~" H 8900 6500 50  0001 C CNN
-	1    8900 6300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW25
 U 1 1 605A8210
 P 9750 6300
@@ -1944,17 +1933,6 @@ $EndComp
 Wire Wire Line
 	3650 5100 3650 5050
 $Comp
-L power:VDD #PWR012
-U 1 1 618443C9
-P 3650 4850
-F 0 "#PWR012" H 3650 4700 50  0001 C CNN
-F 1 "VDD" H 3665 5023 50  0000 C CNN
-F 2 "" H 3650 4850 50  0001 C CNN
-F 3 "" H 3650 4850 50  0001 C CNN
-	1    3650 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C3
 U 1 1 6194E0AE
 P 3850 4950
@@ -1986,10 +1964,7 @@ Wire Wire Line
 	2850 5050 3650 5050
 Connection ~ 3650 5050
 Wire Wire Line
-	3650 4850 3650 4950
-Wire Wire Line
 	3750 4950 3650 4950
-Connection ~ 3650 4950
 Wire Wire Line
 	3650 4950 3650 5050
 Wire Wire Line
@@ -2450,4 +2425,79 @@ NoConn ~ 5750 7100
 NoConn ~ 5750 6900
 NoConn ~ 5550 6900
 NoConn ~ 5550 7100
+Connection ~ 3650 4950
+Wire Wire Line
+	3650 4850 3650 4950
+$Comp
+L power:VDD #PWR012
+U 1 1 618443C9
+P 3650 4850
+F 0 "#PWR012" H 3650 4700 50  0001 C CNN
+F 1 "VDD" H 3665 5023 50  0000 C CNN
+F 2 "" H 3650 4850 50  0001 C CNN
+F 3 "" H 3650 4850 50  0001 C CNN
+	1    3650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0101
+U 1 1 60EC0F19
+P 5250 5550
+F 0 "#PWR0101" H 5250 5400 50  0001 C CNN
+F 1 "VDD" H 5265 5723 50  0000 C CNN
+F 2 "" H 5250 5550 50  0001 C CNN
+F 3 "" H 5250 5550 50  0001 C CNN
+	1    5250 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR0102
+U 1 1 60EC4385
+P 5250 6050
+F 0 "#PWR0102" H 5250 5900 50  0001 C CNN
+F 1 "VSS" H 5265 6223 50  0000 C CNN
+F 2 "" H 5250 6050 50  0001 C CNN
+F 3 "" H 5250 6050 50  0001 C CNN
+	1    5250 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 5950 5250 5950
+Wire Wire Line
+	5250 5950 5250 6050
+Wire Wire Line
+	5350 5650 5250 5650
+Wire Wire Line
+	5250 5650 5250 5550
+Wire Wire Line
+	5950 5650 6050 5650
+Wire Wire Line
+	5950 5750 6050 5750
+NoConn ~ 5950 5950
+Text Label 6050 5650 0    50   ~ 0
+I2C_SDA_R
+Text Label 6050 5750 0    50   ~ 0
+I2C_SCL_R
+$Comp
+L weteor:Trackball_Choc_Combi SW17
+U 2 1 60FEA571
+P 5650 5800
+F 0 "SW17" H 5650 6217 50  0000 C CNN
+F 1 "Trackball_Choc_Combi" H 5650 6126 50  0000 C CNN
+F 2 "Weteor:trackball_choc_combi" H 5650 6150 50  0001 C CNN
+F 3 "" H 5650 6150 50  0001 C CNN
+	2    5650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L weteor:Trackball_Choc_Combi SW17
+U 1 1 610E7D7F
+P 8900 6300
+F 0 "SW17" H 8900 6585 50  0000 C CNN
+F 1 "Trackball_Choc_Combi" H 8900 6494 50  0000 C CNN
+F 2 "" H 8900 6650 50  0001 C CNN
+F 3 "" H 8900 6650 50  0001 C CNN
+	1    8900 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
