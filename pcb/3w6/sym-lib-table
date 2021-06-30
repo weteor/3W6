@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name weteor)(type Legacy)(uri /home/matthias/Data/proj/3W6/pcb/part_library/weteor.lib)(options "")(descr ""))
 )
