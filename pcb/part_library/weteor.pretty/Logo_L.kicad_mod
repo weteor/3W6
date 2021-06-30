@@ -1,4 +1,4 @@
-(module Logo_L (layer F.Cu) (tedit 605FCF53)
+(module Logo_L (layer F.Cu) (tedit 60DC3FC3)
   (fp_text reference REF** (at 2.82 -4.87) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -138,7 +138,7 @@
     (xy 6.106731 -2.301493) (xy 6.172197 -2.375678) (xy 6.249009 -2.437475) (xy 6.336725 -2.486464)
     (xy 6.434899 -2.522225) (xy 6.439933 -2.52362) (xy 6.477431 -2.530702) (xy 6.527528 -2.535667)
     (xy 6.586023 -2.538511) (xy 6.648713 -2.539232) (xy 6.711398 -2.537826)) (layer F.Mask) (width 0.01))
-  (fp_line (start -14.384 1.27) (end 9.14 1.27) (layer F.Mask) (width 0.25))
-  (fp_line (start -14.384 0.254) (end 8.42 0.254) (layer F.Mask) (width 0.25))
-  (fp_line (start -14.384 0.762) (end 8.77 0.762) (layer F.Mask) (width 0.25))
+  (fp_line (start -11.884 1.27) (end 9.14 1.27) (layer F.Mask) (width 0.25))
+  (fp_line (start -11.884 0.254) (end 8.42 0.254) (layer F.Mask) (width 0.25))
+  (fp_line (start -11.884 0.762) (end 8.77 0.762) (layer F.Mask) (width 0.25))
 )

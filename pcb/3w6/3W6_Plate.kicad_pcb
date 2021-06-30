@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.10)
 
   (general
     (thickness 1.6)
@@ -11,14 +11,14 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (33 F.Adhes user)
     (35 F.Paste user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
+    (40 Dwgs.User user hide)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -109,8 +109,8 @@
     (uvia_drill 0.1)
   )
 
-  (module WetCorn:Logo_L (layer F.Cu) (tedit 605FCF53) (tstamp 60602909)
-    (at 73.3 85.9)
+  (module Weteor:Logo_L (layer F.Cu) (tedit 60DC3FC3) (tstamp 60602909)
+    (at 70.8 85.9)
     (fp_text reference REF** (at 2.82 -4.87) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -250,13 +250,13 @@
       (xy 6.106731 -2.301493) (xy 6.172197 -2.375678) (xy 6.249009 -2.437475) (xy 6.336725 -2.486464)
       (xy 6.434899 -2.522225) (xy 6.439933 -2.52362) (xy 6.477431 -2.530702) (xy 6.527528 -2.535667)
       (xy 6.586023 -2.538511) (xy 6.648713 -2.539232) (xy 6.711398 -2.537826)) (layer F.Mask) (width 0.01))
-    (fp_line (start -14.384 1.27) (end 9.14 1.27) (layer F.Mask) (width 0.25))
-    (fp_line (start -14.384 0.254) (end 8.42 0.254) (layer F.Mask) (width 0.25))
-    (fp_line (start -14.384 0.762) (end 8.77 0.762) (layer F.Mask) (width 0.25))
+    (fp_line (start -11.884 1.27) (end 9.14 1.27) (layer F.Mask) (width 0.25))
+    (fp_line (start -11.884 0.254) (end 8.42 0.254) (layer F.Mask) (width 0.25))
+    (fp_line (start -11.884 0.762) (end 8.77 0.762) (layer F.Mask) (width 0.25))
   )
 
-  (module WetCorn:Logo (layer F.Cu) (tedit 605FCF30) (tstamp 606026FC)
-    (at 259.2 85.9)
+  (module Weteor:Logo (layer F.Cu) (tedit 60DC3FA6) (tstamp 606026FC)
+    (at 261.9 85.9)
     (fp_text reference G*** (at -4.318 -3.556) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -396,12 +396,12 @@
       (xy -11.803458 -2.045502) (xy -11.800625 -2.063667) (xy -11.795535 -2.095848) (xy -11.788619 -2.13934)
       (xy -11.780307 -2.191441) (xy -11.771029 -2.249445) (xy -11.762972 -2.299717) (xy -11.727994 -2.517733)
       (xy -11.149297 -2.517733) (xy -11.036161 -2.517716)) (layer F.Mask) (width 0.01))
-    (fp_line (start 9.644 0.254) (end -13.16 0.254) (layer F.Mask) (width 0.25))
-    (fp_line (start 9.644 0.762) (end -13.51 0.762) (layer F.Mask) (width 0.25))
-    (fp_line (start 9.644 1.27) (end -13.88 1.27) (layer F.Mask) (width 0.25))
+    (fp_line (start 6.944 0.254) (end -13.16 0.254) (layer F.Mask) (width 0.25))
+    (fp_line (start 6.944 0.762) (end -13.51 0.762) (layer F.Mask) (width 0.25))
+    (fp_line (start 6.944 1.27) (end -13.88 1.27) (layer F.Mask) (width 0.25))
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 222.5 72.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -417,9 +417,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 102 94.2 3)
     (fp_text reference REF** (at 0 0.5 3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -435,23 +440,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:3x6_PactSwitch_Hole (layer F.Cu) (tedit 60592773) (tstamp 605983CF)
-    (at 91.1 94.8 126)
-    (fp_text reference REF** (at 0.000001 0.5 126) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 3x6_PactSwitch_Hole (at -0.000001 -0.5 126) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -3.1 1.85) (end -3.1 -1.85) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start 3.1 1.85) (end -3.1 1.85) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start 3.1 -1.85) (end 3.1 1.85) (layer Edge.Cuts) (width 0.12))
-    (fp_line (start -3.1 -1.85) (end 3.1 -1.85) (layer Edge.Cuts) (width 0.12))
-  )
-
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 69.3 72.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -467,9 +463,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 51.3 64.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -485,9 +486,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 182.35 101.05 36)
     (fp_text reference REF** (at 0.000001 0.5 36) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -503,9 +509,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 204.9 96.35 15)
     (fp_text reference REF** (at 0 0.5 15) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -521,9 +532,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 225.8 94.15 357)
     (fp_text reference REF** (at 0 0.5 177) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -539,9 +555,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 276.5 47.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -557,9 +578,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 276.5 64.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -575,9 +601,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 276.5 81.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -593,9 +624,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 258.5 38.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -611,9 +647,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 240.5 35.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -629,9 +670,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605924F9)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605924F9)
     (at 222.5 38.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -647,9 +693,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 204.5 40.8)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -665,9 +716,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 258.5 55.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -683,9 +739,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 240.5 52.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -701,9 +762,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 222.5 55.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -719,9 +785,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605925C1)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605925C1)
     (at 258.5 72.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -737,9 +808,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 204.5 57.8)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -755,9 +831,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 240.5 69.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -773,9 +854,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 123.3 74.8)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -791,9 +877,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 105.3 55.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -809,9 +900,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 105.3 72.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -827,9 +923,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 123.3 57.8)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -845,9 +946,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 87.3 35.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -863,9 +969,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 69.3 55.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -881,9 +992,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 123.3 40.8)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -899,9 +1015,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 122.9 96.4 345)
     (fp_text reference REF** (at 0 0.5 165) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -917,9 +1038,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 69.3 38.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -935,9 +1061,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 105.3 38.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -953,9 +1084,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 204.5 74.8)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -971,9 +1107,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 145.5 101.1 324)
     (fp_text reference REF** (at -0.000001 0.5 144) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -989,9 +1130,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 87.3 69.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1007,9 +1153,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 87.3 52.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1025,9 +1176,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 605921AC)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 605921AC)
     (at 51.3 81.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1043,9 +1199,14 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module WetCorn:Plate_Hole (layer F.Cu) (tedit 6059277D) (tstamp 6059217C)
+  (module Weteor:Plate_Hole (layer F.Cu) (tedit 60DC23CA) (tstamp 6059217C)
     (at 51.3 47.3)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1061,6 +1222,25 @@
     (fp_line (start 6.95 6.95) (end -6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start 6.95 -6.95) (end 6.95 6.95) (layer Edge.Cuts) (width 0.12))
     (fp_line (start -6.95 -6.95) (end 6.95 -6.95) (layer Edge.Cuts) (width 0.12))
+    (model :HomeLib:kailh_choc.step
+      (offset (xyz 0 0 -2.2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module WetCorn:3x6_PactSwitch_Hole (layer F.Cu) (tedit 60592773) (tstamp 605983CF)
+    (at 90.9 95.5 125)
+    (fp_text reference REF** (at 0.000001 0.5 125) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 3x6_PactSwitch_Hole (at -0.000001 -0.5 125) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.1 1.85) (end -3.1 -1.85) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start 3.1 1.85) (end -3.1 1.85) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start 3.1 -1.85) (end 3.1 1.85) (layer Edge.Cuts) (width 0.12))
+    (fp_line (start -3.1 -1.85) (end 3.1 -1.85) (layer Edge.Cuts) (width 0.12))
   )
 
   (module kbd:Breakaway_Tabs (layer F.Cu) (tedit 5F29703B) (tstamp 605B4B49)
@@ -1241,18 +1421,18 @@
   (gr_line (start 72.4 29.34472) (end 77.88198 29.34472) (layer Edge.Cuts) (width 0.05) (tstamp 605B5073))
   (gr_line (start 48.75 90.344721) (end 43.38198 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 605B5070))
   (gr_line (start 71.15 90.344721) (end 53.75 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 605B506F))
-  (gr_line (start 76.15 90.344721) (end 84.24538 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 605B506E))
-  (gr_line (start 250.9 90.344721) (end 243.6936 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 605B5066))
+  (gr_line (start 76.15 90.344721) (end 82.24538 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 605B506E))
+  (gr_line (start 250.9 90.344721) (end 245.6936 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 605B5066))
   (gr_line (start 274.05 90.344721) (end 255.9 90.344721) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 279.05 90.344721) (end 284.557 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 605B5065))
   (gr_line (start 261 24.6) (end 285.557 24.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BF1))
   (gr_line (start 225.3 24.6) (end 256 24.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BF0))
   (gr_line (start 107.65 24.6) (end 220.3 24.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BEF))
   (gr_line (start 72.4 24.6) (end 102.75 24.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BEE))
-  (gr_line (start 76.15 92.3) (end 83.4 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE7))
+  (gr_line (start 76.15 92.3) (end 81.4 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE7))
   (gr_line (start 53.75 92.3) (end 71.15 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE6))
   (gr_line (start 48.75 92.3) (end 42.38198 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE5))
-  (gr_line (start 250.9 92.3) (end 244.5 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE3))
+  (gr_line (start 250.9 92.3) (end 246.5 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE3))
   (gr_line (start 274.05 92.3) (end 255.9 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE2))
   (gr_line (start 279.05 92.3) (end 285.557 92.3) (layer Edge.Cuts) (width 0.05) (tstamp 605B4BE1))
   (gr_line (start 279.05 90.344721) (end 279.05 92.3) (layer Edge.Cuts) (width 0.05))
@@ -1273,14 +1453,14 @@
   (gr_line (start 72.4 29.34472) (end 72.4 24.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B49CE))
   (gr_line (start 67.45 29.34472) (end 67.45 24.6) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 42.38198 118.6) (end 42.38198 92.3) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 83.4 92.3) (end 83.4 118.6) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 81.4 92.3) (end 81.4 118.6) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 285.557 118.6) (end 285.557 92.3) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 244.5 92.3) (end 244.5 118.6) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 246.5 92.3) (end 246.5 118.6) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 285.557 124.6) (end 42.38198 124.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B482D))
   (gr_line (start 285.557 118.6) (end 285.557 124.6) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 42.38198 118.6) (end 42.38198 124.6) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 183.3 118.6) (end 244.5 118.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B4842))
-  (gr_line (start 183.3 118.6) (end 83.4 118.6) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 183.3 118.6) (end 246.5 118.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B4842))
+  (gr_line (start 183.3 118.6) (end 81.4 118.6) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 42.4 18.6) (end 42.38198 18.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B47B4))
   (gr_line (start 285.557 18.6) (end 42.4 18.6) (layer Edge.Cuts) (width 0.05) (tstamp 605B47BE))
   (gr_line (start 285.557 24.6) (end 285.557 18.6) (layer Edge.Cuts) (width 0.05))
@@ -1298,8 +1478,8 @@
   (gr_line (start 46.5 37.4) (end 55.9 37.4) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 46.5 36.8) (end 46.5 37.4) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 195.557 74.850561) (end 191 78.15) (layer Edge.Cuts) (width 0.05) (tstamp 60587865))
-  (gr_line (start 167.9835 94.883921) (end 183.4 83.675) (layer Edge.Cuts) (width 0.05) (tstamp 6058751A))
-  (gr_line (start 144.35 83.55) (end 159.95548 94.883921) (layer Edge.Cuts) (width 0.05) (tstamp 605871A5))
+  (gr_line (start 167.821697 95.001478) (end 183.4 83.675) (layer Edge.Cuts) (width 0.05) (tstamp 6058751A))
+  (gr_line (start 144.35 83.55) (end 160.117283 95.001478) (layer Edge.Cuts) (width 0.05) (tstamp 605871A5))
   (gr_line (start 132.38198 74.850561) (end 136.65 77.95) (layer Edge.Cuts) (width 0.05) (tstamp 605871A4))
   (gr_line (start 55.9 30.84472) (end 59.88198 30.84472) (layer Edge.Cuts) (width 0.05) (tstamp 60586E42))
   (gr_line (start 55.9 36.8) (end 55.9 30.84472) (layer Edge.Cuts) (width 0.05))
@@ -2180,12 +2360,12 @@
   (gr_curve (pts (xy 114.38198 31.34472) (xy 114.38198 31.62082) (xy 114.60588 31.84472) (xy 114.88198 31.84472)) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 132.38198 32.84472) (end 132.38198 74.850561) (layer Edge.Cuts) (width 0.05))
   (gr_curve (pts (xy 132.38198 32.84472) (xy 132.38198 32.292421) (xy 131.93428 31.84472) (xy 131.38198 31.84472)) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 160.17672 96.280721) (end 145.48208 116.50612) (layer Edge.Cuts) (width 0.05))
-  (gr_curve (pts (xy 160.17672 96.280721) (xy 160.50134 95.833921) (xy 160.40229 95.208521) (xy 159.95548 94.883921)) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 144.08528 116.727321) (end 131.30278 107.440321) (layer Edge.Cuts) (width 0.05))
-  (gr_curve (pts (xy 144.08528 116.727321) (xy 144.53208 117.051921) (xy 145.15748 116.952921) (xy 145.48208 116.50612)) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 131.30278 107.440321) (end 93.42858 103.459621) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 93.42858 103.459621) (end 84.24538 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 60591A83))
+  (gr_line (start 160.338523 96.398278) (end 145.643883 116.623677) (layer Edge.Cuts) (width 0.05))
+  (gr_curve (pts (xy 160.338523 96.398278) (xy 160.663143 95.951478) (xy 160.564093 95.326078) (xy 160.117283 95.001478)) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 144.247083 116.844878) (end 131.30278 107.440321) (layer Edge.Cuts) (width 0.05))
+  (gr_curve (pts (xy 144.247083 116.844878) (xy 144.693883 117.169478) (xy 145.319283 117.070478) (xy 145.643883 116.623677)) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 131.30278 107.440321) (end 91.42858 103.459621) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 91.42858 103.459621) (end 82.24538 90.344721) (layer Edge.Cuts) (width 0.05) (tstamp 60591A83))
   (gr_line (start 285.557 89.344721) (end 285.557 39.34472) (layer Edge.Cuts) (width 0.05))
   (gr_curve (pts (xy 285.557 89.344721) (xy 285.557 89.897021) (xy 285.109 90.344721) (xy 284.557 90.344721)) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 284.557 38.34472) (end 268.057 38.34472) (layer Edge.Cuts) (width 0.05))
@@ -2206,12 +2386,12 @@
   (gr_curve (pts (xy 213.557 31.34472) (xy 213.557 31.62082) (xy 213.3331 31.84472) (xy 213.057 31.84472)) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 195.557 32.84472) (end 195.557 74.850561) (layer Edge.Cuts) (width 0.05))
   (gr_curve (pts (xy 195.557 32.84472) (xy 195.557 32.292421) (xy 196.0047 31.84472) (xy 196.557 31.84472)) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 167.76226 96.280721) (end 182.4569 116.50612) (layer Edge.Cuts) (width 0.05))
-  (gr_curve (pts (xy 167.76226 96.280721) (xy 167.43764 95.833921) (xy 167.53669 95.208521) (xy 167.9835 94.883921)) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 183.8537 116.727321) (end 196.6362 107.440321) (layer Edge.Cuts) (width 0.05))
-  (gr_curve (pts (xy 183.8537 116.727321) (xy 183.4069 117.051921) (xy 182.7815 116.952921) (xy 182.4569 116.50612)) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 196.6362 107.440321) (end 234.510399 103.459621) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 234.510399 103.459621) (end 243.6936 90.344721) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 167.600457 96.398278) (end 182.295097 116.623677) (layer Edge.Cuts) (width 0.05))
+  (gr_curve (pts (xy 167.600457 96.398278) (xy 167.275837 95.951478) (xy 167.374887 95.326078) (xy 167.821697 95.001478)) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 183.691897 116.844878) (end 196.6362 107.440321) (layer Edge.Cuts) (width 0.05))
+  (gr_curve (pts (xy 183.691897 116.844878) (xy 183.245097 117.169478) (xy 182.619697 117.070478) (xy 182.295097 116.623677)) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 196.6362 107.440321) (end 236.510399 103.459621) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 236.510399 103.459621) (end 245.6936 90.344721) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 162.382 71.631521) (end 162.382 71.631521) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 162.382 71.631521) (end 162.382 71.631521) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 162.382 71.631521) (end 162.382 71.631521) (layer Edge.Cuts) (width 0.05))
