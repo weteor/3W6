@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 1 1
 Title "3W6"
 Date "2021-03-18"
-Rev "v1"
+Rev "v2"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Licensed under CERN-OHL-P v2"
+Comment2 "(c) weteor"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1751,17 +1751,6 @@ F 3 "~" H 4000 3250 50  0001 C CNN
 	1    4000 3250
 	0    1    1    0   
 $EndComp
-$Comp
-L Interface_Expansion:TCA9555RTWR U2
-U 1 1 613CD702
-P 3650 6200
-F 0 "U2" H 4050 7150 50  0000 C CNN
-F 1 "TCA9555RTWR" V 3650 6200 50  0000 C CNN
-F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm" H 4850 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 3150 7100 50  0001 C CNN
-	1    3650 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 1100 5900 1100
 Wire Wire Line
@@ -1816,13 +1805,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 2100 6000 2100
 Wire Wire Line
-	4350 5400 4500 5400
-Wire Wire Line
 	4350 5500 4500 5500
 Wire Wire Line
-	4350 6600 4500 6600
-Wire Wire Line
-	4350 6000 4500 6000
+	4350 5400 4500 5400
 Wire Wire Line
 	4350 6300 4500 6300
 Wire Wire Line
@@ -1830,14 +1815,14 @@ Wire Wire Line
 Wire Wire Line
 	4350 6500 4500 6500
 Wire Wire Line
-	4350 5900 4500 5900
-Text Label 4500 6000 0    50   ~ 0
-Col_R0
-Text Label 4500 6600 0    50   ~ 0
-Col_R1
-Text Label 4500 5500 0    50   ~ 0
-Col_R3
+	4350 6600 4500 6600
 Text Label 4500 5400 0    50   ~ 0
+Col_R0
+Text Label 4500 5500 0    50   ~ 0
+Col_R1
+Text Label 4500 5700 0    50   ~ 0
+Col_R3
+Text Label 4500 5800 0    50   ~ 0
 Col_R4
 Text Label 4500 6300 0    50   ~ 0
 Row_R0
@@ -1845,7 +1830,7 @@ Text Label 4500 6400 0    50   ~ 0
 Row_R1
 Text Label 4500 6500 0    50   ~ 0
 Row_R2
-Text Label 4500 5900 0    50   ~ 0
+Text Label 4500 6600 0    50   ~ 0
 Row_R3
 Wire Wire Line
 	2450 6450 2450 5400
@@ -1882,11 +1867,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 7450 3650 7300
 Connection ~ 3250 7450
-Wire Wire Line
-	3650 7450 3750 7450
-Wire Wire Line
-	3750 7450 3750 7300
-Connection ~ 3650 7450
 $Comp
 L power:VSS #PWR010
 U 1 1 6181E25C
@@ -2173,14 +2153,11 @@ Text Label 4550 2100 2    50   ~ 0
 D+
 Text Label 4550 2200 2    50   ~ 0
 D-
-NoConn ~ 4350 5700
-NoConn ~ 4350 5800
 NoConn ~ 4350 6100
-Text Label 4500 6700 0    50   ~ 0
+Text Label 4500 5600 0    50   ~ 0
 Col_R2
 Wire Wire Line
-	4350 6700 4500 6700
-NoConn ~ 4350 5600
+	4350 5600 4500 5600
 NoConn ~ 3200 650 
 NoConn ~ 6000 1800
 NoConn ~ 6000 2000
@@ -2279,8 +2256,6 @@ NoConn ~ 5750 6600
 NoConn ~ 5750 6800
 NoConn ~ 5350 6600
 NoConn ~ 5350 6800
-NoConn ~ 5150 6800
-NoConn ~ 5150 6600
 $Comp
 L Device:D_Small D43
 U 1 1 6081F895
@@ -2314,34 +2289,11 @@ F 3 "~" V 5350 6700 50  0001 C CNN
 	1    5350 6700
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D_Small D38
-U 1 1 6081F6FF
-P 5150 6700
-F 0 "D38" V 5196 6630 50  0000 R CNN
-F 1 "D" V 5105 6630 50  0000 R CNN
-F 2 "Weteor:D_SOD-123" V 5150 6700 50  0001 C CNN
-F 3 "~" V 5150 6700 50  0001 C CNN
-	1    5150 6700
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 6650 6900
-NoConn ~ 6650 7100
 NoConn ~ 6650 6600
 NoConn ~ 6650 6800
 NoConn ~ 6450 6800
 NoConn ~ 6450 6600
-$Comp
-L Device:D_Small D53
-U 1 1 605F2244
-P 6650 7000
-F 0 "D53" V 6696 6930 50  0000 R CNN
-F 1 "D" V 6605 6930 50  0000 R CNN
-F 2 "Weteor:D_SOD-123" V 6650 7000 50  0001 C CNN
-F 3 "~" V 6650 7000 50  0001 C CNN
-	1    6650 7000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:D_Small D52
 U 1 1 605F0E81
@@ -2364,4 +2316,22 @@ F 3 "~" V 6450 6700 50  0001 C CNN
 	1    6450 6700
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Interface_Expansion:TCA9535PWR U2
+U 1 1 61343A0E
+P 3650 6200
+F 0 "U2" H 3650 7481 50  0000 C CNN
+F 1 "TCA9535PWR" H 3650 7390 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4700 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9535.pdf" H 3150 7100 50  0001 C CNN
+	1    3650 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5700 4500 5700
+Wire Wire Line
+	4500 5800 4350 5800
+NoConn ~ 4350 5900
+NoConn ~ 4350 6000
+NoConn ~ 4350 6700
 $EndSCHEMATC
