@@ -1,4 +1,4 @@
-![3w6](https://raw.githubusercontent.com/weteor/3W6/main/3w6_1s.jpg) 
+![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_1s.jpg) 
 
 # 3w6 - split ortholinear keyboard
 
