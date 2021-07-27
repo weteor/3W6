@@ -29,5 +29,5 @@ you may find instructions here: [build instructions](./prod/build_instruction.md
 
 ##
 
-![3w6](https://raw.githubusercontent.com/weteor/3W6/main/3w6_2s.jpg)
-![3w6](https://raw.githubusercontent.com/weteor/3W6/main/3w6_3s.jpg)
+![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_2s.jpg)
+![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_3s.jpg)
