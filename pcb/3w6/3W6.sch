@@ -1833,39 +1833,13 @@ Row_R2
 Text Label 4500 6600 0    50   ~ 0
 Row_R3
 Wire Wire Line
-	2450 6450 2450 5400
-Wire Wire Line
-	2450 5400 2950 5400
+	2450 6450 2450 5500
 Wire Wire Line
 	1800 6450 2450 6450
 Wire Wire Line
-	2950 5500 2550 5500
-Wire Wire Line
-	2550 5500 2550 6650
-Wire Wire Line
 	1800 6650 2550 6650
 Wire Wire Line
-	2950 6800 2850 6800
-Wire Wire Line
-	2850 6800 2850 6900
-Wire Wire Line
-	2850 7450 3250 7450
-Wire Wire Line
 	3250 7450 3250 7550
-Wire Wire Line
-	2950 6900 2850 6900
-Connection ~ 2850 6900
-Wire Wire Line
-	2850 6900 2850 7000
-Wire Wire Line
-	2950 7000 2850 7000
-Connection ~ 2850 7000
-Wire Wire Line
-	2850 7000 2850 7450
-Wire Wire Line
-	3250 7450 3650 7450
-Wire Wire Line
-	3650 7450 3650 7300
 Connection ~ 3250 7450
 $Comp
 L power:VSS #PWR010
@@ -1876,56 +1850,6 @@ F 1 "VSS" H 3265 7723 50  0000 C CNN
 F 2 "" H 3250 7550 50  0001 C CNN
 F 3 "" H 3250 7550 50  0001 C CNN
 	1    3250 7550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3650 5100 3650 5050
-$Comp
-L Device:C_Small C3
-U 1 1 6194E0AE
-P 3850 4950
-F 0 "C3" V 3800 5050 50  0000 C CNN
-F 1 "0.1uF" V 3950 4950 50  0000 C CNN
-F 2 "Weteor:C_0402_HandSolder" H 3850 4950 50  0001 C CNN
-F 3 "~" H 3850 4950 50  0001 C CNN
-	1    3850 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 619500F8
-P 2850 5250
-F 0 "R5" H 2909 5296 50  0000 L CNN
-F 1 "10k" H 2909 5205 50  0000 L CNN
-F 2 "Weteor:R_0402_HandSolder" H 2850 5250 50  0001 C CNN
-F 3 "~" H 2850 5250 50  0001 C CNN
-	1    2850 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 5350 2850 5600
-Wire Wire Line
-	2850 5600 2950 5600
-Wire Wire Line
-	2850 5150 2850 5050
-Wire Wire Line
-	2850 5050 3650 5050
-Connection ~ 3650 5050
-Wire Wire Line
-	3750 4950 3650 4950
-Wire Wire Line
-	3650 4950 3650 5050
-Wire Wire Line
-	3950 4950 4050 4950
-$Comp
-L power:VSS #PWR015
-U 1 1 61A0BBD0
-P 4050 4950
-F 0 "#PWR015" H 4050 4800 50  0001 C CNN
-F 1 "VSS" H 4065 5123 50  0000 C CNN
-F 2 "" H 4050 4950 50  0001 C CNN
-F 3 "" H 4050 4950 50  0001 C CNN
-	1    4050 4950
 	-1   0    0    1   
 $EndComp
 NoConn ~ 5900 2500
@@ -2162,20 +2086,6 @@ NoConn ~ 3200 650
 NoConn ~ 6000 1800
 NoConn ~ 6000 2000
 NoConn ~ 6000 2100
-Connection ~ 3650 4950
-Wire Wire Line
-	3650 4850 3650 4950
-$Comp
-L power:VDD #PWR012
-U 1 1 618443C9
-P 3650 4850
-F 0 "#PWR012" H 3650 4700 50  0001 C CNN
-F 1 "VDD" H 3665 5023 50  0000 C CNN
-F 2 "" H 3650 4850 50  0001 C CNN
-F 3 "" H 3650 4850 50  0001 C CNN
-	1    3650 4850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VDD #PWR0101
 U 1 1 60EC0F19
@@ -2316,17 +2226,6 @@ F 3 "~" V 6450 6700 50  0001 C CNN
 	1    6450 6700
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Interface_Expansion:TCA9535PWR U2
-U 1 1 61343A0E
-P 3650 6200
-F 0 "U2" H 3650 7481 50  0000 C CNN
-F 1 "TCA9535PWR" H 3650 7390 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 4700 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9535.pdf" H 3150 7100 50  0001 C CNN
-	1    3650 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 5700 4500 5700
 Wire Wire Line
@@ -2334,4 +2233,103 @@ Wire Wire Line
 NoConn ~ 4350 5900
 NoConn ~ 4350 6000
 NoConn ~ 4350 6700
+Wire Wire Line
+	3350 6800 3250 6800
+Wire Wire Line
+	3250 6800 3250 6900
+Wire Wire Line
+	3350 6900 3250 6900
+Connection ~ 3250 6900
+Wire Wire Line
+	3250 6900 3250 7000
+Wire Wire Line
+	3350 7000 3250 7000
+Connection ~ 3250 7000
+Wire Wire Line
+	3250 7000 3250 7450
+Wire Wire Line
+	3250 7450 3850 7450
+Wire Wire Line
+	3850 7200 3850 7450
+$Comp
+L Device:R_Small R5
+U 1 1 619500F8
+P 3200 5250
+F 0 "R5" H 3259 5296 50  0000 L CNN
+F 1 "10k" H 3259 5205 50  0000 L CNN
+F 2 "Weteor:R_0402_HandSolder" H 3200 5250 50  0001 C CNN
+F 3 "~" H 3200 5250 50  0001 C CNN
+	1    3200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5350 3200 5700
+Wire Wire Line
+	3200 5700 3350 5700
+$Comp
+L Device:C_Small C3
+U 1 1 6194E0AE
+P 4050 4900
+F 0 "C3" V 4000 5000 50  0000 C CNN
+F 1 "0.1uF" V 4150 4900 50  0000 C CNN
+F 2 "Weteor:C_0402_HandSolder" H 4050 4900 50  0001 C CNN
+F 3 "~" H 4050 4900 50  0001 C CNN
+	1    4050 4900
+	0    1    1    0   
+$EndComp
+Connection ~ 3850 5000
+Wire Wire Line
+	3950 4900 3850 4900
+Wire Wire Line
+	3850 4900 3850 5000
+Wire Wire Line
+	4150 4900 4250 4900
+$Comp
+L power:VSS #PWR015
+U 1 1 61A0BBD0
+P 4250 4900
+F 0 "#PWR015" H 4250 4750 50  0001 C CNN
+F 1 "VSS" H 4265 5073 50  0000 C CNN
+F 2 "" H 4250 4900 50  0001 C CNN
+F 3 "" H 4250 4900 50  0001 C CNN
+	1    4250 4900
+	-1   0    0    1   
+$EndComp
+Connection ~ 3850 4900
+Wire Wire Line
+	3850 4800 3850 4900
+$Comp
+L power:VDD #PWR012
+U 1 1 618443C9
+P 3850 4800
+F 0 "#PWR012" H 3850 4650 50  0001 C CNN
+F 1 "VDD" H 3865 4973 50  0000 C CNN
+F 2 "" H 3850 4800 50  0001 C CNN
+F 3 "" H 3850 4800 50  0001 C CNN
+	1    3850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5000 3200 5150
+Wire Wire Line
+	3200 5000 3850 5000
+Wire Wire Line
+	3850 5000 3850 5200
+$Comp
+L Interface_Expansion:PCA9555PW U2
+U 1 1 61038AE6
+P 3850 6200
+F 0 "U2" H 3850 7381 50  0000 C CNN
+F 1 "PCA9555PW" H 3850 7290 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3850 6200 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf" H 3850 6200 50  0001 C CNN
+	1    3850 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5400 2550 5400
+Wire Wire Line
+	2550 5400 2550 6650
+Wire Wire Line
+	3350 5500 2450 5500
 $EndSCHEMATC
