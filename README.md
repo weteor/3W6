@@ -1,4 +1,4 @@
-![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_1s.jpg) 
+![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_rev2_1s.jpg) 
 
 # 3w6 - split ortholinear keyboard
 
@@ -27,7 +27,10 @@ You can print [this file](https://raw.githubusercontent.com/weteor/3W6/main/plat
 ## build instructions
 you may find instructions here: [build instructions](./prod/build_instruction.md)
 
-##
-
+## rev2(current)
+![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_rev2_1s.jpg) 
+![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_rev2_2s.jpg) 
+## rev1
+![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_1s.jpg) 
 ![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_2s.jpg)
 ![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_3s.jpg)
