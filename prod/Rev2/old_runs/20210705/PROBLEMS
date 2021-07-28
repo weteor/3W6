@@ -1,0 +1,2 @@
+- IO-Expander has no pullup resistors, needs to be PCA9555PW or TCA9555PWR
+- GND Pin of Pimoroni footprint connects to copper island without connection to board GND
