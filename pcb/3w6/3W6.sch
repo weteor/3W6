@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "3W6"
 Date "2021-03-18"
-Rev "v2"
+Rev "v2.1"
 Comp ""
 Comment1 "Licensed under CERN-OHL-P v2"
 Comment2 "(c) weteor"
@@ -2332,4 +2332,5 @@ Wire Wire Line
 	2550 5400 2550 6650
 Wire Wire Line
 	3350 5500 2450 5500
+NoConn ~ 8950 800 
 $EndSCHEMATC
