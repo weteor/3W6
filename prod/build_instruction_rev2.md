@@ -25,7 +25,7 @@ ok, let's start:
 - connect both sides and check the same way. ( you can safely connect the sides while the board is connected to the pc)
 
 optional step:
-- solder the pimoroni trackball to the pcb. [See instructions here](https://github.com/weteor/3W6/blob/main/prod/build_instruction_rev2_pimoroni.md)
+- solder the pimoroni trackball to the pcb. [See instructions here](./build_instruction_rev2_pimoroni.md)
 
 ok, ready to put the switches on.
 
