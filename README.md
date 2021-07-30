@@ -12,7 +12,7 @@ So no hotswap, no multiple switchtypes, no encoders, no LEDs.
 
 BUT with onboard controllers (so no extra ProMicros, Elite-C), production files including SMT assembly files, and sturdy through hole mounted USB-C connectors.
 
-## currently revision 2
+## revision 2
 changes:
 - new middle plate (1.6mm, better 2.0mm) instead of diodes. Uses Aluminium PCBs as a cheaper alternative to lasered aluminium. 
 - pimoroni trackball support (can only be used combined with the new middle plate when used with the plate)
