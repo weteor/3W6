@@ -1,3 +1,7 @@
+----
+**This Revision is old and should not be used**
+----
+
 **if you are going to order pcb with the provided files please make sure the components in the BOM are still valid and have the correct values! I will update them from time to time, but there is no guarantee the current version is still correct.**
 
 If the board was manufactured with the included Bom and Pick and Place Files the following components are needed to complete the build:
