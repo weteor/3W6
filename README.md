@@ -19,15 +19,23 @@ changes:
 - plate is now 1.2mm thick, to fit the chocs better. Needs middle plate, since the cutouts of the USB-Connectors were left out. There is enough space for them under the plate, when the middle plate is in place.
 - added mounting holes to support tenting puck from splitkb.com. Due to insufficient space not all 4 holes are supported, but 3 screws should be enough to hold everything comfortably in position. Can only be used plateless! 
 - package for the MCU was changed from QFN32 to TQFP32, since the previous one wasn't available. Can now be soldered/replaced by hand if need.
-- IO-expander was changed from TCA9555 to TCA9535, since the previous one wasn't available. Package changed from WQFN24 to TSSOP24. Can now be soldered/replaced by hand if need.
+- IO-expander was changed from TCA9555RTWR to TCA9555PWR (alternativly PCA9555PW), since the previous one wasn't available. Package changed from WQFN24 to TSSOP24. Can now be soldered/replaced by hand if need.
 - Board can now be soldered by hand if needed (challenging though, 0402 components). 
+
 ## try it
-You can print [this file](https://raw.githubusercontent.com/weteor/3W6/main/plate_outline.pdf) to test if you like the layout. Or mount it to some cardboard and test it with your favourite switches.
+You may also compare the layout with other layouts of other layouts at https://jhelvy.shinyapps.io/splitkbcompare/ .
+
+Or you can print [this file](https://raw.githubusercontent.com/weteor/3W6/main/plate_outline.pdf) to test if you like the layout. Or mount it to some cardboard and test it with your favourite switches.
 
 ## build instructions
 you may find instructions here: 
 - rev1 (deprecated): [build instructions rev1](./prod/build_instruction_rev1.md)
 - **rev2 (current)**   : [build instructions rev2](./prod/build_instruction_rev2.md)
+
+## firmware
+This keyboard uses [QMK firmware](https://qmk.fm/).
+You may find the files needed to build a firmware for this board in [my fork](https://github.com/weteor/qmk_firmware/tree/3w6_rev_2).
+I am in the progress of getting the board merged into the official QMK repository.
 
 ## rev2(current)
 ![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_rev2_1s.jpg) 
