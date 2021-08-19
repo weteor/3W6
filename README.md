@@ -27,6 +27,11 @@ You may also compare the layout with other layouts of other layouts at https://j
 
 Or you can print [this file](https://raw.githubusercontent.com/weteor/3W6/main/plate_outline.pdf) to test if you like the layout. Or mount it to some cardboard and test it with your favourite switches.
 
+## production files
+If you want to build one yourself, grab the 
+Gerber files [here](https://github.com/weteor/3W6/tree/main/prod/Rev2) and give it a go.
+
+And if 3d printing is your thing, files for plate and midlayer can be found [here](https://github.com/weteor/3W6/tree/main/prod/Rev2/3d%20Print) (made by the great [bomtarnes](https://github.com/keyboard-magpie), thanks a lot!)
 ## build instructions
 you may find instructions here: 
 - rev1 (deprecated): [build instructions rev1](./prod/build_instruction_rev1.md)
