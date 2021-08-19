@@ -34,8 +34,9 @@ you may find instructions here:
 
 ## firmware
 This keyboard uses [QMK firmware](https://qmk.fm/).
-You may find the files needed to build a firmware for this board in [my fork](https://github.com/weteor/qmk_firmware/tree/3w6_rev_2).
-I am in the progress of getting the board merged into the official QMK repository.
+You can find everything you need to build a firmware for this board in the [QMK Repository](https://github.com/qmk/qmk_firmware). 
+
+Here are some instructions on how to [set up your QMK environment](https://docs.qmk.fm/#/newbs) and a few notes [specifically for the 3w6](https://github.com/qmk/qmk_firmware/tree/master/keyboards/3w6).
 
 ## rev2(current)
 ![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_rev2_1s.jpg) 
