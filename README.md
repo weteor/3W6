@@ -18,7 +18,7 @@ changes:
 - pimoroni trackball support (can only be used combined with the new middle plate when used with the plate)
 - plate is now 1.2mm thick, to fit the chocs better. Needs middle plate, since the cutouts of the USB-Connectors were left out. There is enough space for them under the plate, when the middle plate is in place.
 - added mounting holes to support tenting puck from splitkb.com. Due to insufficient space not all 4 holes are supported, but 3 screws should be enough to hold everything comfortably in position. Can only be used plateless! 
-- package for the MCU was changed from QFN32 to TQFP32, since the previous one wasn't available. Can now be soldered/replaced by hand if need.
+- package for the MCU was changed from QFN44 to TQFP44, since the previous one wasn't available. Can now be soldered/replaced by hand if need.
 - IO-expander was changed from TCA9555RTWR to TCA9555PWR (alternativly PCA9555PW), since the previous one wasn't available. Package changed from WQFN24 to TSSOP24. Can now be soldered/replaced by hand if need.
 - Board can now be soldered by hand if needed (challenging though, 0402 components). 
 
