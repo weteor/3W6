@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name Weteor)(type KiCad)(uri ${KIPRJMOD}/../part_library/weteor.pretty)(options "")(descr ""))
+  (lib (name "Weteor")(type "KiCad")(uri "${KIPRJMOD}/../part_library/weteor.pretty")(options "")(descr ""))
+  (lib (name "3W6-main")(type "KiCad")(uri "C:/Users/Jan/Downloads/3W6-main")(options "")(descr ""))
 )

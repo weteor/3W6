@@ -1787,11 +1787,13 @@ F 3 "" H 1100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	5300 1450 5200 1450
+Wire Wire Line
 	5200 1550 5300 1550
 Wire Wire Line
 	5300 1650 5200 1650
 Wire Wire Line
-	5200 2450 5300 2450
+	5200 1750 5300 1750
 Wire Wire Line
 	5200 2050 5300 2050
 Wire Wire Line
@@ -1842,7 +1844,7 @@ F 3 "" H 3250 7550 50  0001 C CNN
 	1    3250 7550
 	-1   0    0    1   
 $EndComp
-NoConn ~ 5200 1750
+NoConn ~ 5200 2450
 NoConn ~ 5200 2550
 NoConn ~ 5200 2650
 NoConn ~ 5200 2750
@@ -1970,7 +1972,7 @@ Text Label 5300 3750 0    50   ~ 0
 Col_L1
 Text Label 5300 3250 0    50   ~ 0
 Col_L0
-Text Label 5300 2450 0    50   ~ 0
+Text Label 5300 1750 0    50   ~ 0
 Row_L3
 Text Label 5300 3450 0    50   ~ 0
 Row_L2
@@ -2068,7 +2070,7 @@ Text Label 5600 5600 0    50   ~ 0
 Col_R2
 Wire Wire Line
 	4350 5600 4900 5600
-NoConn ~ 5200 1450
+NoConn ~ 5300 1450
 NoConn ~ 5200 1950
 NoConn ~ 5200 3950
 $Comp
@@ -2490,10 +2492,10 @@ F 3 "" H 800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VSS #PWR0108
+L power:VSS #PWR?
 U 1 1 62B080A0
 P 800 7400
-F 0 "#PWR0108" H 800 7250 50  0001 C CNN
+F 0 "#PWR?" H 800 7250 50  0001 C CNN
 F 1 "VSS" H 815 7573 50  0000 C CNN
 F 2 "" H 800 7400 50  0001 C CNN
 F 3 "" H 800 7400 50  0001 C CNN

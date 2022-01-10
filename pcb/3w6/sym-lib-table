@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name weteor)(type Legacy)(uri /home/matthias/Data/proj/3W6/pcb/part_library/weteor.lib)(options "")(descr ""))
+  (lib (name 3W6-rescue)(type Legacy)(uri ${KIPRJMOD}/3W6-rescue.lib)(options "")(descr ""))
 )
