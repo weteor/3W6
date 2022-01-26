@@ -12,6 +12,14 @@ So no hotswap, no multiple switchtypes, no encoders, no LEDs.
 
 BUT with onboard controllers (so no extra ProMicros, Elite-C), production files including SMT assembly files, and sturdy through hole mounted USB-C connectors.
 
+## revision 3
+changes:
+- added second ground plane and stitching vias
+- accidentally removed mounting holes to support tenting puck from splitkb.com
+- package for the MCU was changed back to QFN44, since the previous one wasn't available
+- added ISP header to program MCU for models without factory bootloader
+- IO-expander was changed to TCA9535PWR alongside with adding external pull-up resistors to increase compatible part selection
+
 ## revision 2
 changes:
 - new middle plate (1.6mm, better 2.0mm) instead of diodes. Uses Aluminium PCBs as a cheaper alternative to lasered aluminium. 
