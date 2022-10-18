@@ -11,7 +11,10 @@ It's designed to be a no frills, cheap and small keyboard to be taken everywhere
 So no hotswap, no multiple switchtypes, no encoders, no LEDs.
 
 BUT with onboard controllers (so no extra ProMicros, Elite-C), production files including SMT assembly files, and sturdy through hole mounted USB-C connectors.
-
+## revision 2.2
+changes:
+- combi footprint to be able to use the AU or MU variant of the AtMega32U4. 
+- add BOM files for each AU and MU variant, so you can choose the cheaper one.
 ## revision 2
 changes:
 - new middle plate (1.6mm, better 2.0mm) instead of diodes. Uses Aluminium PCBs as a cheaper alternative to lasered aluminium. 
