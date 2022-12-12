@@ -46,6 +46,11 @@ You can find everything you need to build a firmware for this board in the [QMK 
 
 Here are some instructions on how to [set up your QMK environment](https://docs.qmk.fm/#/newbs) and a few notes [specifically for the 3w6](https://github.com/qmk/qmk_firmware/tree/master/keyboards/3w6).
 
+## the rest
+Everything in this repository is free to use however you might see fit. If you want to support me and my projects, please consider linking back to this repository if you build/change/use anything. 
+
+If you would like to send me a tip, you could do it [here](https://ko-fi.com/weteor) (Please don't feel like you have to).
+
 ## rev2(current)
 ![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_rev2_1s.jpg) 
 ![3w6](https://raw.githubusercontent.com/weteor/3W6/main/images/3w6_rev2_2s.jpg) 
